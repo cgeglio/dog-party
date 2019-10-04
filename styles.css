@@ -164,13 +164,53 @@ span {
   width: 300px;
 }
 
-/* @media only screen and (max-width: 600px) {
-  article {
+
+@media only screen and (max-width: 1050px) {
+  body{
+    text-align: center;
+    box-sizing: content-box;
+    display: inline-block;
     width: auto;
-    display: block;
+    margin: auto;
+    /* height: 100%;
+    margin: auto;
+    padding: auto; */
   }
-  .column1 {
+
+  nav{
+    height: 80px;
+    padding: 20px;
     width: auto;
+  }
+
+  .hero{
+    padding: auto;
+  }
+
+  nav a{
+    font-size: 10pt;
+    /* display: block; */
+  }
+  /* .column1 .column2 .column3 {
+    display: block;
+  } */
+
+  ul{
+    /* clear: right; */
+    display: block;
+    text-align: center;
+    float: none;
+    margin: 0;
+  }
+
+  li{
+    font-size: 12pt;
+    margin: 0px;
+    float: none;
+
+    /* clear: right;
+    display: block; */
+
   }
 }
-} */
+}
