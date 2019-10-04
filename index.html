@@ -3,6 +3,7 @@
   <head>
      <link rel="stylesheet" type="text/css" href="styles.css">
      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+     <script src="main.js"></script>
   </head>
   <body>
     <nav>
@@ -10,18 +11,21 @@
         <img src="images/dog-party-assets/dog-icon.svg" alt="logo"/>
       </a>
       <ul>
-        <li><a href="how">How To Dog</a></li>
-        <li><a href="what">What Is Dogs</a></li>
-        <li><a href="facts">Facts From Dogs</a></li>
+        <li>
+          <a href="index.html">How To Dog</a></li>
+        <li>
+          <a href="index.html">What Is Dogs</a></li>
+        <li>
+          <a href="index.html">Facts From Dogs</a></li>
       </ul>
     </nav>
     <section class="hero">
       <h1>A Site About <span>Some Dogs</span></h1>
       <img src="images/dog-party-assets/dog1-sq.jpg" alt="Dog picture" class="circular"/>
-      <form action="https://dogparty.com/" method="get">
+      <form method="get">
         <h2>Name</h2>
-          <input type="text" name="name" />
-          <input type="submit" value="Name This Dog">
+          <input id="doggo" type="text"/>
+          <input id="sub" type="submit" value="Name This Dog"/>
       </form>
     </section>
     <main>

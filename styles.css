@@ -62,14 +62,15 @@ ul {
 
 li {
   float: left;
-  padding: 0px 10px 0px 10px;
   font-weight: bold;
+  height: auto;
+  margin-right: 20px;
 }
 
-li:hover {
+ul a:hover {
   background-color: #048eaa;
   transition-duration: 0.4s;
-  height: 60px;
+  padding: 10px;
 }
 
 .circular {
