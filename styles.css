@@ -164,6 +164,37 @@ span {
   width: 300px;
 }
 
+a.tt1:hover::after {
+  content: "Learn How to Dog";
+  position: absolute ;
+  min-width: 100px ;
+  padding: 8px ;
+  color: #048eaa ;
+  font-size: 10px;
+  background-color: #ffffff;
+}
+
+a.tt2:hover::after {
+  content: "Learn What Dogs Is";
+  position: absolute ;
+  min-width: 100px ;
+  padding: 8px ;
+  color: #048eaa ;
+  font-size: 10px;
+  background-color: #ffffff;
+}
+
+a.tt3:hover::after {
+  content: "Learn the Doggo Facts";
+  position: absolute ;
+  min-width: 100px ;
+  padding: 8px ;
+  color: #048eaa ;
+  font-size: 10px;
+  background-color: #ffffff;
+  display: flex;
+}
+
 
 @media only screen and (max-width: 1050px) {
   body{
