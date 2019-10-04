@@ -1,7 +1,8 @@
 
 * {
-  /* border: 1px solid blue; */
+  /* box-sizing: border-box; */
 }
+
 body {
   background-color: #ffffff;
   color: #000000;
@@ -116,11 +117,15 @@ button a {
 }
 
 .column1, .column2, .column3 {
-  width: 30%;
+  /* width: 30%;
   height: 600px;
   display: inline-block;
   padding: 20px;
-  vertical-align: top;
+  vertical-align: top; */
+  width: 300px;
+  float: left;
+  padding: 80px;
+  height: 700px;
 }
 
 form {
@@ -160,9 +165,12 @@ span {
   text-align: left;
   padding: 20px;
   height: 200px;
+  width: 300px;
 }
 
-/* main {
-  column-count: 3;
-  column-width: 33%
-} */
+@media screen and (max-width: 600px) {
+  .column1 {
+    /* clear: both; */
+    width: 100%;
+  }
+}
