@@ -124,7 +124,7 @@ button a {
   height: 700px;
 }
 
-form {
+form#hero {
   padding: 10px;
 }
 
@@ -195,6 +195,26 @@ a.tt3:hover::after {
   display: flex;
 }
 
+textarea {
+    font-size: 14pt;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+form#inputText {
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  font-size: 14pt;
+  overflow: hidden;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+select {
+  font-size: 14pt;
+}
 
 @media only screen and (max-width: 1050px) {
   body{

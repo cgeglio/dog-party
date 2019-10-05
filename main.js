@@ -50,4 +50,24 @@
     }
   });
 
-  
+
+var selection = document.getElementById("selection");
+var changeTextButton = document.querySelector(".change-filler");
+var takeText = document.querySelector("textarea");
+var ipsum1 = document.getElementById("ipsum1");
+var ipsum2 = document.getElementById("ipsum2");
+var ipsum3 = document.getElementById("ipsum3");
+
+
+changeTextButton.addEventListener('click', function (){
+      event.preventDefault();
+      if (selection.value === "ipsum1") {
+        ipsum1.innerText = takeText.value;
+      }
+      if (selection.value === "ipsum2") {
+        ipsum2.innerText = takeText.value;
+      }
+      if (selection.value === "ipsum3") {
+        ipsum3.innerText = takeText.value;
+      }
+    });
