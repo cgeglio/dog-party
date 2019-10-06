@@ -20,10 +20,10 @@ nav {
 }
 
 h1 {
-  font-weight: normal;
+  font-weight: lighter;
   color: #ffffff;
   margin: 10px;
-  font-size: 30px;
+  font-size: 24pt;
 }
 
 h2 {
@@ -34,7 +34,7 @@ h2 {
 
 h3 {
   color: #000000;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 18pt;
 }
 
@@ -157,7 +157,8 @@ input[type=text] {
   text-decoration: none;
 }
 span {
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 26pt;
 }
 
 .ipsum {
