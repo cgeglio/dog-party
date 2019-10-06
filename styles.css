@@ -1,8 +1,4 @@
 
-* {
-  /* box-sizing: border-box; */
-}
-
 body {
   background-color: #ffffff;
   color: #000000;
@@ -117,7 +113,9 @@ button a {
   background-position: center bottom;
 }
 
-.column1, .column2, .column3 {
+.column1,
+.column2,
+.column3 {
   width: 300px;
   float: left;
   padding: 80px;
@@ -200,10 +198,10 @@ a.tt3:hover::after {
 }
 
 textarea {
-    font-size: 14pt;
-    line-height: 1.5;
-    border-radius: 5px;
-    border: 1px solid #000000;
+  font-size: 14pt;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #000000;
 }
 
 form#inputText {
@@ -232,9 +230,6 @@ select {
     display: inline-block;
     width: auto;
     margin: auto;
-    /* height: 100%;
-    margin: auto;
-    padding: auto; */
   }
 
   nav{
@@ -249,14 +244,9 @@ select {
 
   nav a{
     font-size: 10pt;
-    /* display: block; */
   }
-  /* .column1 .column2 .column3 {
-    display: block;
-  } */
 
   ul{
-    /* clear: right; */
     display: block;
     text-align: center;
     float: none;
@@ -267,10 +257,5 @@ select {
     font-size: 12pt;
     margin: 0px;
     float: none;
-
-    /* clear: right;
-    display: block; */
-
   }
-}
 }

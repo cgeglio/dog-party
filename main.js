@@ -5,18 +5,6 @@
     event.preventDefault();
   });
 
-
-  // var how = document.getElementById("how")
-  // var text = document.getElementById("ipsum1");
-  // how.addEventListener("click", function() {
-  //   text.style.display = "none";
-  //   event.preventDefault();
-  //     if (text = "none") {
-  //       how.addEventListener("click", function() {
-  //       ipsum1.style.display = "block" });
-  //     }
-  // });
-
   how.addEventListener("click", function() {
     event.preventDefault();
     var how = document.getElementById("how")
@@ -59,7 +47,7 @@ var ipsum2 = document.getElementById("ipsum2");
 var ipsum3 = document.getElementById("ipsum3");
 
 
-changeTextButton.addEventListener('click', function (){
+changeTextButton.addEventListener('click', function () {
       event.preventDefault();
       if (selection.value === "ipsum1") {
         ipsum1.innerText = takeText.value;
